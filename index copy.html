@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <title>as.swordpvp.club</title>
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="홍보내용" />
+  <meta name="theme-color" content="#6AFF42" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/journal/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+  <link rel="shortcut icon" href="https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrd9dhpl1hcy/b/filepile/o/pvp%20server%2Ffavicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrd9dhpl1hcy/b/filepile/o/pvp%20server%2Ffavicon.ico" type="image/x-icon">
+
+  <style>
+    body {
+      font-variant-ligatures: common-ligatures discretionary-ligatures;
+    }
+
+    .dark {
+      background-color: black;
+      border-radius: 3px;
+      border: gray 1px solid;
+    }
+
+    .images img {
+      margin: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">as.swordpvp.club</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-content">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-content">
+        <ul class="navbar-nav mr-auto">
+          <li class="navbar-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="nav-link" href="#community">Community</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="nav-link" href="#status">status</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron" id="home">
+    <div class="container">
+      <img src="data:image/png;base64,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" class="img-fluid" />
+
+      <p class="lead"><strong>Harder, Better, Faster, Stronger</strong></p>
+
+      <p>
+        문제가 있나요? <a href="디스코드 링크">디스코드에서 문의하세요</a>.
+      </p>
+    </div>
+  </div>
+  
+  <br>
+  <div id="home">
+    <div id="container"></div>
+    <h4 style="text-align: center;">특징</h4>
+    <p style="text-align: center;"><strong>Harder</strong> 뚫기 어려운 안티치트<br><strong>Better</strong> 뛰어나고 다양한 장르들의 PVP 게임들<br><strong>Faster</strong> 낮은 핑<br><strong>Stronger</strong> 강력한 서버  </p>
+  </div>
+  
+  <br>
+  <div id="community">
+    <div class="container">
+      <h4 style="text-align: center;">디스코드 링크(아직 없음)</h4>
+      <p style="text-align: center;">discord<img src="https://www.svgrepo.com/show/353655/discord-icon.svg" width="56px"
+          style="padding: 10px;" /></p>
+    </div>
+  </div>
+  <div id="status">
+    <div id="container">
+      <h4 style="text-align: center;">서버 상태</h4>
+      <div id="serverdata"></div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br>
+</body>
+<script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+<script>
+  function gen() {
+    MinecraftAPI.getServerStatus(
+      "as.swordpvp.club",
+      { port: 25565 },
+      function (err, status) {
+        if (err) {
+          const el = `
+      <table class="tg" style="table-layout: fixed; width: 855px">
+        <colgroup>
+            <col style="width: 65px">
+            <col style="width: 133px"> 
+            <col style="width: 118px">
+            <col style="width: 263px">
+            <col style="width: 224px">
+            <col style="width: 52px">
+        </colgroup>
+        <thead>
+            <tr>
+                <td class="tg-etfl" rowspan="2"><div class="ipdiv"><a id="favicon"><img src="${cfavicon}" onerror="this.src='https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrd9dhpl1hcy/b/filepile/o/icon.png'"></a></div></td>
+                <td class="tg-29q2" rowspan="2"><div class="ipdiv" onclick = "detail()"><a id="ip">as.swordpvp.club</a></div></td>
+                <td class="tg-etfl"><div class="server-player">
+                    <a class="server-player-now">offline</a><a class="slash">/</a><a class="server-player-max">offline</a>
+                  </div></td>
+                <td class="tg-29q2" rowspan="2"><div class="server-motd-div">
+                    <a class="server-motd">server is offline</a>
+                  </div></td>
+                <td class="tg-etfl" rowspan="2"><div class="server">
+                    <a class="server-name">1.18.2</a>
+                  </div></td>
+                <td class="tg-29q2" rowspan="2"><div class="server-statusdiv">
+                    <a class="server-online">offline ❌</a>
+                  </div></td>
+            </tr>
+            <tr>
+                <td class="tg-etfl"><div class="last-seen">
+                    <a class="ls">${ctime}</a>
+                  </div></td>
+            </tr>
+        </thead>
+    </table>
+    <div class="line1"></div>`;
+        var e = document.getElementById("serverdata");
+        e.innerHTML = el;
+        }
+        var cversion = status.server.name;
+        var cserver = status.online ? "online ✅" : "offline ❌";
+        var cmotd = status.motd;
+        var cplayern = status.players.now;
+        var cplayerm = status.players.max;
+        var ctime = status.last_updated;
+        var cfavicon = status.favicon;
+
+        const el = `
+      <table class="tg" style="table-layout: fixed; width: 855px">
+        <colgroup>
+            <col style="width: 65px">
+            <col style="width: 133px"> 
+            <col style="width: 118px">
+            <col style="width: 263px">
+            <col style="width: 224px">
+            <col style="width: 52px">
+        </colgroup>
+        <thead>
+            <tr>
+                <td class="tg-etfl" rowspan="2"><div class="ipdiv"><a id="favicon"><img src="${cfavicon}" onerror="this.src='https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrd9dhpl1hcy/b/filepile/o/icon.png'"></a></div></td>
+                <td class="tg-29q2" rowspan="2"><div class="ipdiv" onclick = "detail()"><a id="ip">as.swordpvp.club</a></div></td>
+                <td class="tg-etfl"><div class="server-player">
+                    <a class="server-player-now">${cplayern}</a><a class="slash">/</a><a class="server-player-max">${cplayerm}</a>
+                  </div></td>
+                <td class="tg-29q2" rowspan="2"><div class="server-motd-div">
+                    <a class="server-motd"><a style="color: #0aa;">SwordPvP.Club</a> ❘ [Only 1.18.2]<br>Still in Beta ❘ <a style="color: #0aa;">Open Release Soon?</a></a>
+                  </div></td>
+                <td class="tg-etfl" rowspan="2"><div class="server">
+                    <a class="server-name">${cversion}</a>
+                  </div></td>
+                <td class="tg-29q2" rowspan="2"><div class="server-statusdiv">
+                    <a class="server-online">${cserver}</a>
+                  </div></td>
+            </tr>
+            <tr>
+                <td class="tg-etfl"><div class="last-seen">
+                    <a class="ls">${ctime}</a>
+                  </div></td>
+            </tr>
+        </thead>
+    </table>
+    <div class="line1"></div>`;
+        var e = document.getElementById("serverdata");
+        e.innerHTML = el;
+      }
+    );
+  }
+</script>
+<script>
+  gen();
+</script>
+<style type="text/css">
+  .tg td {
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 0px 0px;
+    word-break: normal;
+  }
+
+  .tg th {
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 0px 0px;
+    word-break: normal;
+  }
+
+  .tg .tg-29q2 {
+    background-color: #eee;
+
+    color: #000000;
+    text-align: center;
+    vertical-align: middle
+  }
+
+  .tg .tg-etfl {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle
+  }
+
+
+
+  table {
+    border-collapse: separate;
+    border: solid black 2px;
+    border-radius: 6px;
+  }
+
+
+  th {
+    background-color: blue;
+    border-top: none;
+  }
+
+  td:first-child,
+  th:first-child {
+    border-left: none;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Ubuntu", sans-serif;
+  }
+</style>
